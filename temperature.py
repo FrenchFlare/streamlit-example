@@ -1,5 +1,4 @@
 #IMPORTATION MODULES NECESSAIRES
-from re import X
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
