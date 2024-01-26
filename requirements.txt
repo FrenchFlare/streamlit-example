@@ -1,3 +1,5 @@
-altair
+numpy
 pandas
+matplotlib
 streamlit
+plotly.express
