@@ -1,9 +1,9 @@
 #IMPORTATION MODULES NECESSAIRES
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import streamlit as st
-import plotly.express as px
+
+
+
 
 st.title("Projet température terrestre")
 st.sidebar.title("Sommaire")
@@ -77,9 +77,6 @@ erreurs_forest = predictions_forest - y_test
 from sklearn.svm import SVR
 svr = SVR()
 svr.fit(X_train, y_train)
-print('Score SVR sur ensemble train', svr.score(X_train, y_train))
-print('Score SVR sur ensemble test', svr.score(X_test, y_test))
-print('nous pouvons éliminer le SVR')
 
 #GRADIENTBOOSTINGREGRESSOR
 from sklearn.ensemble import GradientBoostingRegressor
